@@ -13,7 +13,11 @@ const prompt = inquirer.createPromptModule();
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+// function init() {}
 
 // Function call to initialize app
-init();
+// init();
+
+prompt(questions).then((answers) => {
+    console.log(answers);
+});

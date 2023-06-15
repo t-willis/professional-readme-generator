@@ -1,44 +1,48 @@
 module.exports = [
-    (
-        type: 'input',
-        message: 'What is the title of your project?',
+    {
+        message: 'What is your Project Title?',
         name: 'projTitle',
-        default: 'Project Title',
-    ),
-    (
-        type: 'input',
-        message: 'What is the description of your project?',
+        default: 'title',
+    },
+    {
+        message: 'What is your Project Description?',
         name: 'projDesc',
-        default: 'Project Description',
-    ),
-    (
-        type: 'input',
-        message: 'What are the steps required for installation?',
+        default: 'description',
+    },
+    {
+        message: 'What are the installation instructions?',
         name: 'projInst',
-        default: 'Installation',
-    ),
-    (
-        type: 'input',
-        message: 'What are the instructions for usage?',
-        name: 'projUsag',
-        default: 'Usage',
-    ),
-    (
-        type: 'input',
-        message: 'Would you like to list and collaborators or other credits?',
-        name: 'projCred',
-        default: 'Credits',
-    ),
-    (
+        default: 'installation'
+    },
+    {
+        message: 'What are the usage instructions?',
+        name: 'projUsage',
+        default: 'usage',
+    },
+    {
         type: 'list',
-        message: 'Would you like to add a License?',
-        name: 'projLice',
-        choices: [ 'MIT', 'Apache', 'GNU', 'None'],
-    ),
-    (
-        type: 'list',
-        message: 'Would you like to add any badges?',
-        name: 'projBadg',
-        choices: [ 'opt1', 'opt2', 'opt3', 'None'],
-    ),
+        message: 'What license would you like to use?',
+        name: 'projLisc',
+        choices: [ 'MIT', 'Apache', 'None' ],
+    },
+    {
+        message: 'How can others contribute to this project?',
+        name: 'projContr',
+        default: 'how to contribute',
+    },
+    {
+        message: 'What test instructions do you have??',
+        name: 'projTests',
+        default: 'Tests',
+    },
+    {
+        message: 'What is your GitHub username?',
+        name: 'projGitH',
+        default: 'GitHub Username',
+    },
+    {
+        message: 'What is your GitHub username?',
+        name: 'projEmail',
+        default: 'Email',
+    },
 ];
