@@ -6,8 +6,6 @@ const questions = require("./utils/questions");
 
 const prompt = inquirer.createPromptModule();
 
-// TODO: Create an array of questions for user input
-// const questions = [];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
@@ -19,5 +17,7 @@ function writeToFile(fileName, data) {}
 // init();
 
 prompt(questions).then((answers) => {
+    const md = generateMarkdown(answers);
     console.log(answers);
+    fs.writeFileSync('READMEgen.md', md);
 });
