@@ -23,7 +23,7 @@ module.exports = [
         type: 'list',
         message: 'What license would you like to use?',
         name: 'projLisc',
-        choices: [ 'MIT', 'Apache', 'None' ],
+        choices: [ 'MIT', 'Apache', 'IBM', 'Mozilla', 'None' ],
     },
     {
         message: 'How can others contribute to this project?',
