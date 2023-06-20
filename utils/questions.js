@@ -1,3 +1,4 @@
+// Question list to be utilized by index.js prompt
 module.exports = [
     {
         message: 'What is your Project Title?',
@@ -23,7 +24,7 @@ module.exports = [
         type: 'list',
         message: 'What license would you like to use?',
         name: 'projLisc',
-        choices: [ 'MIT', 'Apache', 'IBM', 'Mozilla', 'None' ],
+        choices: [ 'Apache', 'Boost', 'GNU', 'MIT', 'Mozilla', 'WTFPL', 'none' ],
     },
     {
         message: 'How can others contribute to this project?',
