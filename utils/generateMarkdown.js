@@ -20,8 +20,8 @@ function renderLicenseLink(license) {
 
 // function to print license section of README or empty string
 function renderLicenseSection(license) {
-  return license !== "none"
-    ? `## License
+  return license !== "none" ? 
+`## License
     
 This application is available under the ${renderLicenseLink(license)} license. Please see license documentation for more information.
     

@@ -3,7 +3,7 @@ module.exports = [
     {
         message: 'What is your Project Title?',
         name: 'projTitle',
-        default: 'title',
+        default: 'project title',
     },
     {
         message: 'What is your Project Description?',
@@ -34,16 +34,16 @@ module.exports = [
     {
         message: 'What test instructions do you have??',
         name: 'projTests',
-        default: 'Tests',
+        default: 'tests',
     },
     {
         message: 'What is your GitHub username?',
         name: 'projGitH',
-        default: 'GitHub Username',
+        default: 'username',
     },
     {
         message: 'What is your GitHub username?',
         name: 'projEmail',
-        default: 'Email',
+        default: 'sample@email.com',
     },
 ];
