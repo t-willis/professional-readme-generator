@@ -38,7 +38,6 @@ function generateMarkdown(data) {
   ## Description
 
   ${data.projDesc}
-
   
   ---
   
@@ -54,7 +53,6 @@ function generateMarkdown(data) {
   
   ## Installation
   ${data.projInst}
-  
   
   ---
   
@@ -74,7 +72,7 @@ function generateMarkdown(data) {
   ---
   
   ## Questions
-  GitHub: ${data.projGitH}
+  GitHub: [https://github.com/${data.projGitH}](https://github.com/${data.projGitH})
 
   Email: ${data.projEmail}
   

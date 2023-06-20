@@ -9,5 +9,5 @@ const prompt = inquirer.createPromptModule();
 prompt(questions).then((answers) => {
     const md = generateMarkdown(answers);
     console.log(answers);
-    fs.writeFileSync('READMEgen.md', md);
+    fs.writeFileSync('sampleREADME.md', md);
 });
