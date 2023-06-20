@@ -26,7 +26,7 @@ function renderLicenseSection(license) {
 This application is available under the ${renderLicenseLink(license)} license. Please see license documentation for more information.
     
 ---`
-    : "";
+: "";
 }
 
 // Function to generate md for README

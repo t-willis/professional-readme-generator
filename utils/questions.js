@@ -32,7 +32,7 @@ module.exports = [
         default: 'how to contribute',
     },
     {
-        message: 'What test instructions do you have??',
+        message: 'What test instructions do you have?',
         name: 'projTests',
         default: 'tests',
     },
